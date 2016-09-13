@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="Potsang Huang">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->	
+</head>
+<body>
+	<div class="container" id="game-setting">
+		<div class="row">
+			<div class="col-xs-4 text-right" id="">
+				<h4>You play as:</h4>
+			</div>
+			<div class="col-xs-5" id="">
+				<label class="radio-inline">
+					<input type="radio" id="inlineRadio1" value="X" name="radioInline" checked>
+					<h4>X</h4>
+				</label>
+				<label class="radio-inline">
+					<input type="radio" id="inlineRadio2" value="O" name="radioInline">
+					<h4>O</h4>
+				</label>
+						
+			</div>	
+			<div class="col-xs-3">
+				<button type="button" class="btn btn-success btn-sm" id="start-btn" value="start">Start</button>
+			</div>				
+		</div>
+	</div>
+	<div class="container text-center" id="game-board">
+		<div class="row">
+			<div class="col-xs-4 cell" id="cell-0">
+			</div>
+			<div class="col-xs-4 cell" id="cell-1">
+			</div>
+			<div class="col-xs-4 cell" id="cell-2">
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-xs-4 cell" id="cell-3">
+			</div>
+			<div class="col-xs-4 cell" id="cell-4">
+			</div>
+			<div class="col-xs-4 cell" id="cell-5">
+			</div>			
+		</div>
+		<div class="row">
+			<div class="col-xs-4 cell" id="cell-6">
+			</div>
+			<div class="col-xs-4 cell" id="cell-7">
+			</div>
+			<div class="col-xs-4 cell" id="cell-8">
+			</div>			
+		</div>		
+	</div>
+	<div class="container text-center" id="game-status">
+		<h3 id="message">Press "Start" button to play...</h3>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+	margin-top: 150px;
+}
+
+#game-board {
+	width: 398px;
+	height: 428px;
+	background-color: #272e38;
+	border-style: solid;
+	border-width: 40px 25px 40px 25px;
+	border-color: lightgreen;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 10px 10px 2px #272e38;
+}
+
+#game-setting {
+	font-family: georgia;
+	width: 398px;
+	height: 40px;
+	background-color: lightgreen;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;	
+	box-shadow: 0px 10px 10px 2px #272e38;
+}
+
+#game-status {
+	font-family: georgia;
+	width: 398px;
+	height: 60px;
+	background-color: cyan;
+	margin-top: 15px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 10px 10px 2px #272e38;
+}
+
+input {
+	margin-top: 14px !important;
+}
+
+#start-btn {
+	margin-top: 5px;
+}
+
+.cell-win {
+	opacity: 0.3;
+	transition: 0.4s;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+}
+
+#cell-0 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 0px 1px 1px 0px;
+	border-color: white;
+}
+
+#cell-1 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 0px 1px 1px 1px;
+	border-color: white;
+}
+
+#cell-2 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 0px 0px 1px 1px;
+	border-color: white;
+}
+
+#cell-3 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 1px 1px 0px;
+	border-color: white;
+}
+
+#cell-4 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: white;
+}
+
+#cell-5 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 0px 1px 1px;
+	border-color: white;
+}
+
+#cell-6 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 1px 0px 0px;
+	border-color: white;
+}
+
+#cell-7 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 1px 0px 1px;
+	border-color: white;
+}
+
+#cell-8 {
+	width: 116px;
+	height: 116px;	
+	border-style: solid;
+	border-width: 1px 0px 0px 1px;
+	border-color: white;
+}
+
+.token {
+	font-family: cursive;
+	font-size: 70px;
+	color: yellow;
+}
+
